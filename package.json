@@ -1,6 +1,6 @@
 {
   "name": "dynamoose",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "Dynamoose is a modeling tool for Amazon's DynamoDB (inspired by Mongoose)",
   "typings": "./dynamoose.d.ts",
   "homepage": "https://dynamoosejs.com",
@@ -86,7 +86,7 @@
     "debug": "4.1.1",
     "deep-equal": "1.0.1",
     "hooks": "0.3.2",
-    "object-path": "0.11.4",
+    "object-path": "0.11.5",
     "q": "1.5.1"
   },
   "engines": {
@@ -107,11 +107,7 @@
     "branches": 80
   },
   "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint && npm run tslint",
-      "pre-push": "npm run ci"
-    }
+    "hooks": {}
   },
   "config": {
     "commitizen": {
